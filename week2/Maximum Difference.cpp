@@ -4,7 +4,7 @@
 using namespace std;
 
 int maxDifference(int arr[], int n){
-  // complete this function
+ 
   int maxDiff=arr[1]-arr[0];
   int minElem=arr[0];
   for(int i=1;i<n;i++){
